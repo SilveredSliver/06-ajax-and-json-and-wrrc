@@ -68,3 +68,13 @@ Article.fetchAll = () => {
 
   }
 }
+
+$.ajax({
+  type: "HEAD",
+  // "eTag": function(){
+
+  // },
+  success: function(data, message, xhr) {
+    console.log(xhr);
+  }
+})
